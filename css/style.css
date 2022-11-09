@@ -100,6 +100,7 @@ a {
 .navbar {
     position: fixed:
     top: 0;
+    left: 0;
     width: 100%;
     margin: 0 auto;
     box-shadow: var(--dark-shadow);
@@ -159,5 +160,78 @@ a {
     text-align: start;
     max-width: 35rem;
 }
+
+
+.html {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.html h1 {
+    text-transform: uppercase;
+    padding: 0 3rem;
+}
+
+.html-ol {
+    text-align: start;
+    max-width: 35rem;
+}
+
+
+
+.css {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.css h1 {
+    text-transform: uppercase;
+    padding: 0 3rem;
+}
+
+.css-ol {
+    text-align: start;
+    max-width: 35rem;
+}
+
+
+
+.js {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.js h1 {
+    text-transform: uppercase;
+    padding: 0 3rem;
+}
+
+
+.contacto {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contacto h1 {
+    text-transform: uppercase;
+    padding: 0 3rem;
+}
+
 
 
